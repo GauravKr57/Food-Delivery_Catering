@@ -1,0 +1,190 @@
+
+/*Navigation Bar*/
+
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li {
+    margin-top: -22px;
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+#navbar ul li a {
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    margin: 3px 13px;
+    transition: all 0.5s ease-in-out;
+}
+
+#logo img {
+    height: 60px;
+    width: 110px;
+    margin: -35px -15px;
+    padding: 14px 3px;
+}
+
+#play img{
+    display: none;
+}
+
+
+/*Home Section*/
+
+#home{
+    height: 200px;
+}
+#home::before{
+    height: 580px;
+}
+#home p{
+    font-size: 15px;
+}
+
+
+#home h1 {
+    color: rgb(255 255 255);
+    text-align: center;
+    margin: 15px;
+}
+
+
+
+/*Services Section*/
+
+#services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ecffe5;
+}
+#services .box {
+    border: 5px solid rgb(99, 19, 19);
+    border-radius: 23px;
+    background-color: #fffde6;
+    width: 300px;
+    margin: 12px 20px;
+    padding: 20px 29px;
+    transition: all 0.2s ease-in-out;
+}
+#servicescontainer h1 {
+    font-size: 2.2rem;
+    margin-top: 120px;
+    color: #41008d;
+}
+#services .box img {
+    display: block;
+    height: 100px;
+    margin: auto;
+}
+.box h2 {
+    font-size: 1.7rem;
+    font-family: cursive;
+}
+.paragraph {
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+/*Our Clients Section*/
+
+#clients{
+    overflow: hidden;
+}
+#clients-container h1 {
+    font-size: 2.2rem;
+    margin-top: 13px;
+    color: #41008d;
+}
+#clients img {
+    height: 138px;
+    width: 75px;
+    padding: 5px 5px;
+    margin: 30px 8px;
+}
+
+
+
+/*Contact Us Section*/
+
+#contactbox{
+    flex-direction: column;
+}
+.formgroup {
+    padding: 7px 2px;
+    margin: 12px 3px;
+}
+#contact h1 {
+    font-size: 2.2rem;
+    color: #41008d;
+    margin-top: 61px;
+}
+#contactbox::before {
+    content: "";
+    position: absolute;
+    background: url(../img/contact1.jpg) no-repeat center center/cover;
+    height: 69%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+.formgroup .btn {
+    border: 3px solid black;
+    padding: 7px 32px;
+    margin: 13px 100px;
+}
+#contact label {
+    margin: 25px;
+    color: #000000d1;
+    font-size: 25px;
+}
+#contact input[name="Locality"] {
+    padding: 3px 50px;
+    margin: 5px 26px;
+    text-align: center;
+    border-radius: 5px;
+}
+#contact input {
+    padding: 3px 50px;
+    margin: 8px 25px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+
+
+
+
+/*Footer*/
+
+footer {
+    font-size: 0.8rem;
+    background-color: rgb(152 56 56);
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+/*Utility Classes*/
+
+.hprime {
+    font-size: 1.4rem;
+    padding: 3px;
+}
+
+.btn {
+    padding: 9px 25px;
+    margin: 5px;
+    font-size: 20px;
+    border: 3px solid white;
+    color: antiquewhite;
+    background-color: #0005ff;
+    border-radius: 10px;
+}
